@@ -1,4 +1,4 @@
-// ConsoleApplication1.cpp : ©w¸q¥D±±¥xÀ³¥Îµ{¦¡ªº¶i¤JÂI¡C
+// ConsoleApplication1.cpp : å®šç¾©ä¸»æ§å°æ‡‰ç”¨ç¨‹å¼çš„é€²å…¥é»ã€‚
 //
 
 #include "stdafx.h"
@@ -43,9 +43,9 @@ void mouse::visit(int maze[mazesize][mazesize], int i, int j)
 			for (int n = 0; n<mazesize; n++)
 			{
 				if (maze[m][n] == 1)
-					cout << "¢i";
+					cout << "â–ˆ";
 				else if (maze[m][n] == 2)
-					cout << "¡·";
+					cout << "â—";
 				else
 					cout << "  ";
 			}
@@ -86,7 +86,7 @@ int main()
 		for (int j = 0; j<mazesize; j++)
 		{
 			if (maze[i][j] == 1)
-				cout << "¢i";
+				cout << "â–ˆ";
 			else
 				cout << "  ";
 		}
